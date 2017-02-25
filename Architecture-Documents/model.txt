@@ -1,0 +1,49 @@
+
+
+PartnerInfo 
+name
+pid 
+address
+company name
+isActive
+list<Routes>
+
+Routes
+rid
+fromHub 
+toHub
+ETA
+Cost
+List<ShipmentResouce>
+
+ShipmentResource
+name
+id
+type 
+dimension
+Weight
+
+PackageType
+packid
+Name
+Type
+Dimension
+Weight
+
+Quotes 
+Adress toAddress 
+Adress toFromAddress
+type packageType
+Cost
+
+
+Order 
+OrderId
+List<PartnerOrderId>
+QuoteID
+CustomerId
+Cost
+
+..more to come
+
+
