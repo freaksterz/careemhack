@@ -1,3 +1,4 @@
+/*
 package com.hareem.hack.controllers;
 
 import com.hareem.hack.models.User;
@@ -7,9 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+*/
 /**
  * Created by aman on 25/2/17.
- */
+ *//*
+
 @RestController
 public class UserController {
 
@@ -31,7 +34,8 @@ public class UserController {
     }
 
 
-    /*@RequestMapping("/getById")
+    */
+/*@RequestMapping("/getById")
     @ResponseBody
     public String getById(Long id) {
         String userId;
@@ -73,7 +77,9 @@ public class UserController {
         }
         return "User succesfully updated!";
     }
-*/
+*//*
+
 
 
 }
+*/
